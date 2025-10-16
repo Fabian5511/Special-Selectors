@@ -13,3 +13,13 @@
 
 /* Add your CSS styles below this line */
 
+ div.card::before {
+    content: "sale";
+    padding: 20%;
+}
+
+a {
+    background-color:coral;
+    border-radius: 4px;
+    padding: 10px;
+}
