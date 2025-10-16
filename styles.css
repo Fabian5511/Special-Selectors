@@ -1,0 +1,36 @@
+ul {
+    list-style: none;
+}
+li {
+    background-color:crimson;
+    cursor:grabbing;
+}
+
+li:hover {
+    background-color:darkred;
+    font-style: italic;
+}
+
+li:active {
+    background-color:lightsalmon;
+    font-size: 30px;
+}
+
+li::before {
+    content: "🥵";
+}
+
+li:hover::after {
+    content: "Pick me kid pick me kid";
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+li:active::after {
+    content: "ugly ahh"
+}
+
+li:active::before {
+    content: "🦧";
+}
+
